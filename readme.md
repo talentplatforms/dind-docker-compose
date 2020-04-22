@@ -32,3 +32,15 @@ It'll install the node_modules:
 - commit-lint
 
 To make this work you need to have NODE.js installed.
+
+# Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style.
+
+1. Fork it
+2. Create your feature branch (git checkout -b feature/my-cool-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin feature/my-new-feature)
+5. Create new Pull Request
+
+# License
+Copyright (c) 2020 Territory Embrace - Talent Platforms.
