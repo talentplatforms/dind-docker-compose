@@ -6,6 +6,22 @@ init:
 	npm install
 
 ################################################################################
+# releases
+################################################################################
+
+# patches a version
+patch:
+	npm run release:patch
+
+# minor up
+minor:
+	npm run release:minor
+
+# major up
+release:
+	npm run release
+
+################################################################################
 # docker building stuff
 ################################################################################
 # you have to know what you're doing if your using this ;)
