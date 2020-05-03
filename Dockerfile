@@ -2,7 +2,7 @@ ARG DOCKER_VERSION=${DOCKER_VERSION:-"19.03.2"}
 
 FROM docker:${DOCKER_VERSION}
 
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash git
 RUN set -x && \
   apk add --no-cache -t .deps ca-certificates curl && \
   # Install glibc on Alpine (required by docker-compose) from
