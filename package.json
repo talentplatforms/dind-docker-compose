@@ -1,6 +1,6 @@
 {
   "name": "git-hooks",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "git hooks and node-based tools",
   "author": "Andy Ruck",
   "license": "MIT License",
