@@ -27,8 +27,8 @@ release:
 # you have to know what you're doing if your using this ;)
 
 
-DOCKER_VERSION=19.03.8
-DOCKER_COMPOSE_VERSION=1.25.5
+DOCKER_VERSION=19.03.12
+DOCKER_COMPOSE_VERSION=1.26.2
 TAG_COMPOSE=d-${DOCKER_VERSION}-dc-${DOCKER_COMPOSE_VERSION}
 REGISTRY=talentplatforms/docker-compose
 VCS_URL=https://github.com/talentplatforms/docker-compose
