@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/talentplatforms/docker-compose/compare/v1.2.1...v1.2.2) (2020-10-10)
+
+
+### Others
+
+* version bump ([ed8ee09](https://github.com/talentplatforms/docker-compose/commit/ed8ee09d5178a631870d2bb8484dd3070c3e61b3))
+
 ### [1.2.1](https://github.com/talentplatforms/docker-compose/compare/v1.2.0...v1.2.1) (2020-09-14)
 
 
