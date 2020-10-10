@@ -12,14 +12,17 @@ init:
 # patches a version
 patch:
 	npm run release:patch
+	git push
 
 # minor up
 minor:
 	npm run release:minor
+	git push
 
 # major up
 release:
 	npm run release
+	git push
 
 ################################################################################
 # docker building stuff
@@ -27,8 +30,8 @@ release:
 # you have to know what you're doing if your using this ;)
 
 
-DOCKER_VERSION=19.03.12
-DOCKER_COMPOSE_VERSION=1.26.2
+DOCKER_VERSION=19.03.13
+DOCKER_COMPOSE_VERSION=1.27.4
 TAG_COMPOSE=d-${DOCKER_VERSION}-dc-${DOCKER_COMPOSE_VERSION}
 REGISTRY=talentplatforms/docker-compose
 VCS_URL=https://github.com/talentplatforms/docker-compose
